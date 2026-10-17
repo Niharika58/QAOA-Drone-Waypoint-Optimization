@@ -251,6 +251,7 @@ The following results were obtained from the experiment.
 The optimality gap was calculated as:
 
 Optimality Gap (%) = (V_classical - V_QAOA) / V_classical x 100
+
 For both configurations, the gap was zero because the sampled solution matched the exact optimum for its own dataset.
 
 The reported runtime measures this particular classical simulation and optimization workflow. It is not the execution time of a physical quantum processor, and the comparison alone does not establish that one quantum processor is intrinsically faster than another.
